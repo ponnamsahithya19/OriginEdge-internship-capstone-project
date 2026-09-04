@@ -48,7 +48,7 @@ app.use(errorHandler);
 
 // Start Server & Initialize Database
 initDB().then(() => {
-  app.listen(PORT, '0.0.0.0', () => { {
+  app.listen(PORT, '0.0.0.0', () =>  {
     console.log(`🚀 Enterprise Internship Backend API Server running on port ${PORT}`);
     console.log(`🌐 Health check endpoint: http://localhost:${PORT}/api/health`);
   });
